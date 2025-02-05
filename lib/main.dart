@@ -61,13 +61,13 @@ class __TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
   @override
   Widget build(BuildContext context) {
 // For the ToDo task hint: consider defining the widget and name of the tabs here
-    final tabs = ['Weather Tab', 'Tab 2', 'Tab 3'];
+    final tabs = ['Atlanta', 'Smyrna', 'Kennesaw'];
 
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Text(
-          'Tabs Demo',
+          'Weather App',
         ),
         bottom: TabBar(
           controller: _tabController,
